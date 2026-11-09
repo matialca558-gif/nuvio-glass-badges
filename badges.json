@@ -1,0 +1,634 @@
+{
+  "filters": [
+    {
+      "id": "resolution-8k",
+      "groupId": "resolution",
+      "name": "8K",
+      "pattern": "(?i)\\b(8k|4320p)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/resolution/8k.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFef5968"
+    },
+    {
+      "id": "resolution-4k",
+      "groupId": "resolution",
+      "name": "4K",
+      "pattern": "(?i)\\b(4k|2160p|uhd)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/resolution/4k.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFe6b84e"
+    },
+    {
+      "id": "resolution-1440p",
+      "groupId": "resolution",
+      "name": "1440p",
+      "pattern": "(?i)\\b(1440p|2k)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/resolution/1440p.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF45b8e8"
+    },
+    {
+      "id": "resolution-1080p",
+      "groupId": "resolution",
+      "name": "1080p",
+      "pattern": "(?i)\\b(1080p|fhd)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/resolution/1080p.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF42c6bd"
+    },
+    {
+      "id": "resolution-720p",
+      "groupId": "resolution",
+      "name": "720p",
+      "pattern": "(?i)\\b(720p|hd)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/resolution/720p.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF788de0"
+    },
+    {
+      "id": "resolution-576p",
+      "groupId": "resolution",
+      "name": "576p",
+      "pattern": "(?i)\\b576p\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/resolution/576p.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF7599d5"
+    },
+    {
+      "id": "resolution-480p",
+      "groupId": "resolution",
+      "name": "480p",
+      "pattern": "(?i)\\b480p\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/resolution/480p.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF8a96a8"
+    },
+    {
+      "id": "resolution-360p",
+      "groupId": "resolution",
+      "name": "360p",
+      "pattern": "(?i)\\b360p\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/resolution/360p.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF8a96a8"
+    },
+    {
+      "id": "visual-dv",
+      "groupId": "visual",
+      "name": "DV",
+      "pattern": "(?i)\\b(dolby[ ._-]?vision|dovi|dv)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/visual/dv.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFb57ce8"
+    },
+    {
+      "id": "visual-hdr10",
+      "groupId": "visual",
+      "name": "HDR10+",
+      "pattern": "(?i)\\b(hdr10\\+|hdr10plus)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/visual/hdr10.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFe6a15b"
+    },
+    {
+      "id": "visual-hdr10",
+      "groupId": "visual",
+      "name": "HDR10",
+      "pattern": "(?i)\\bhdr10\\b(?!\\+)",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/visual/hdr10.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFd6a84e"
+    },
+    {
+      "id": "visual-hdr",
+      "groupId": "visual",
+      "name": "HDR",
+      "pattern": "(?i)\\bhdr\\b(?!10)",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/visual/hdr.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFc6a64e"
+    },
+    {
+      "id": "visual-hlg",
+      "groupId": "visual",
+      "name": "HLG",
+      "pattern": "(?i)\\bhlg\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/visual/hlg.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF77b85d"
+    },
+    {
+      "id": "visual-sdr",
+      "groupId": "visual",
+      "name": "SDR",
+      "pattern": "(?i)\\bsdr\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/visual/sdr.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF9299a5"
+    },
+    {
+      "id": "codec-av1",
+      "groupId": "codec",
+      "name": "AV1",
+      "pattern": "(?i)\\bav1\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/codec/av1.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF49a9c8"
+    },
+    {
+      "id": "codec-hevc",
+      "groupId": "codec",
+      "name": "HEVC",
+      "pattern": "(?i)\\b(hevc|h\\.?265|x265)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/codec/hevc.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF4bb49a"
+    },
+    {
+      "id": "codec-avc",
+      "groupId": "codec",
+      "name": "AVC",
+      "pattern": "(?i)\\b(avc|h\\.?264|x264)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/codec/avc.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF8b80d8"
+    },
+    {
+      "id": "codec-vp9",
+      "groupId": "codec",
+      "name": "VP9",
+      "pattern": "(?i)\\bvp9\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/codec/vp9.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFb49a61"
+    },
+    {
+      "id": "audio-atmos",
+      "groupId": "audio",
+      "name": "ATMOS",
+      "pattern": "(?i)\\b(atmos|ddp?[\\s._-]?atmos)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/audio/atmos.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF53b7b3"
+    },
+    {
+      "id": "audio-truehd",
+      "groupId": "audio",
+      "name": "TRUEHD",
+      "pattern": "(?i)\\btruehd\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/audio/truehd.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF55a99d"
+    },
+    {
+      "id": "audio-dts-x",
+      "groupId": "audio",
+      "name": "DTS:X",
+      "pattern": "(?i)\\bdts[\\s._-]?x\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/audio/dts-x.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFdf965c"
+    },
+    {
+      "id": "audio-dts-hd",
+      "groupId": "audio",
+      "name": "DTS-HD",
+      "pattern": "(?i)\\bdts[\\s._-]?hd(?:[\\s._-]?ma)?\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/audio/dts-hd.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFcf8b59"
+    },
+    {
+      "id": "audio-aac",
+      "groupId": "audio",
+      "name": "AAC",
+      "pattern": "(?i)\\baac\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/audio/aac.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF7198d5"
+    },
+    {
+      "id": "audio-flac",
+      "groupId": "audio",
+      "name": "FLAC",
+      "pattern": "(?i)\\bflac\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/audio/flac.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF62ad89"
+    },
+    {
+      "id": "channels-7-1",
+      "groupId": "channels",
+      "name": "7.1",
+      "pattern": "(?i)\\b7[\\s._-]?1\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/channels/7-1.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF4db9a5"
+    },
+    {
+      "id": "channels-5-1",
+      "groupId": "channels",
+      "name": "5.1",
+      "pattern": "(?i)\\b5[\\s._-]?1\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/channels/5-1.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF4db9a5"
+    },
+    {
+      "id": "channels-2-0",
+      "groupId": "channels",
+      "name": "2.0",
+      "pattern": "(?i)\\b2[\\s._-]?0\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/channels/2-0.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF75a88a"
+    },
+    {
+      "id": "source-remux",
+      "groupId": "source",
+      "name": "REMUX",
+      "pattern": "(?i)\\b(remux|bdremux)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/source/remux.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFb37be0"
+    },
+    {
+      "id": "source-blu-ray",
+      "groupId": "source",
+      "name": "BLU-RAY",
+      "pattern": "(?i)\\b(bluray|blu[\\s._-]?ray|bdrip)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/source/blu-ray.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF64a8d6"
+    },
+    {
+      "id": "source-web-dl",
+      "groupId": "source",
+      "name": "WEB-DL",
+      "pattern": "(?i)\\b(web[\\s._-]?dl|webdl)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/source/web-dl.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF54b8a8"
+    },
+    {
+      "id": "source-webrip",
+      "groupId": "source",
+      "name": "WEBRIP",
+      "pattern": "(?i)\\b(webrip|web[\\s._-]?rip)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/source/webrip.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF54b8a8"
+    },
+    {
+      "id": "source-hdtv",
+      "groupId": "source",
+      "name": "HDTV",
+      "pattern": "(?i)\\bhdtv\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/source/hdtv.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF8d9bb0"
+    },
+    {
+      "id": "source-dvd",
+      "groupId": "source",
+      "name": "DVD",
+      "pattern": "(?i)\\b(dvdrip|dvd)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/source/dvd.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF8d9bb0"
+    },
+    {
+      "id": "container-mkv",
+      "groupId": "container",
+      "name": "MKV",
+      "pattern": "(?i)\\bmkv\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/container/mkv.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF59a98b"
+    },
+    {
+      "id": "container-mp4",
+      "groupId": "container",
+      "name": "MP4",
+      "pattern": "(?i)\\bmp4\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/container/mp4.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF5b9bc5"
+    },
+    {
+      "id": "streaming-netflix",
+      "groupId": "streaming",
+      "name": "NETFLIX",
+      "pattern": "(?i)\\b(netflix|nf|netfli[xs])\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/netflix.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFe34b58"
+    },
+    {
+      "id": "streaming-prime-video",
+      "groupId": "streaming",
+      "name": "PRIME VIDEO",
+      "pattern": "(?i)\\b(prime[ ._-]?video|amazon[ ._-]?prime|amzn|amzn[ ._-]?web)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/prime-video.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF4da8d8"
+    },
+    {
+      "id": "streaming-apple-tv",
+      "groupId": "streaming",
+      "name": "APPLE TV+",
+      "pattern": "(?i)\\b(apple[ ._-]?tv\\+?|atvp|itunes)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/apple-tv.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF9da8b7"
+    },
+    {
+      "id": "streaming-disney",
+      "groupId": "streaming",
+      "name": "DISNEY+",
+      "pattern": "(?i)\\b(disney\\+?|dsnp|disneyplus)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/disney.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF6b83d8"
+    },
+    {
+      "id": "streaming-max",
+      "groupId": "streaming",
+      "name": "MAX",
+      "pattern": "(?i)\\b(max|hbo[ ._-]?max|hmax)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/max.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF8c78d8"
+    },
+    {
+      "id": "streaming-hulu",
+      "groupId": "streaming",
+      "name": "HULU",
+      "pattern": "(?i)\\bhulu\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/hulu.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF58b77a"
+    },
+    {
+      "id": "streaming-paramount",
+      "groupId": "streaming",
+      "name": "PARAMOUNT+",
+      "pattern": "(?i)\\b(paramount\\+?|pmtp|paramountplus)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/paramount.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF5c91d5"
+    },
+    {
+      "id": "streaming-peacock",
+      "groupId": "streaming",
+      "name": "PEACOCK",
+      "pattern": "(?i)\\b(peacock|pcok)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/peacock.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFd4a15c"
+    },
+    {
+      "id": "streaming-crunchyroll",
+      "groupId": "streaming",
+      "name": "CRUNCHYROLL",
+      "pattern": "(?i)\\b(crunchyroll|cr)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/crunchyroll.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFe58a45"
+    },
+    {
+      "id": "streaming-amc",
+      "groupId": "streaming",
+      "name": "AMC+",
+      "pattern": "(?i)\\bamc\\+?\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/amc.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFb56b7c"
+    },
+    {
+      "id": "streaming-discovery",
+      "groupId": "streaming",
+      "name": "DISCOVERY+",
+      "pattern": "(?i)\\b(discovery\\+?|dscovery)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/discovery.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF5b9bc5"
+    },
+    {
+      "id": "streaming-bbc-iplayer",
+      "groupId": "streaming",
+      "name": "BBC iPLAYER",
+      "pattern": "(?i)\\b(bbc[ ._-]?iplayer|iplayer)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/bbc-iplayer.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFc56e91"
+    },
+    {
+      "id": "streaming-starz",
+      "groupId": "streaming",
+      "name": "STARZ",
+      "pattern": "(?i)\\bstarz\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/starz.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF8b8fa8"
+    },
+    {
+      "id": "streaming-showtime",
+      "groupId": "streaming",
+      "name": "SHOWTIME",
+      "pattern": "(?i)\\b(showtime|sho)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/showtime.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFc36b78"
+    },
+    {
+      "id": "streaming-youtube",
+      "groupId": "streaming",
+      "name": "YOUTUBE",
+      "pattern": "(?i)\\byoutube\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/youtube.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFe45b5b"
+    },
+    {
+      "id": "streaming-jiohotstar",
+      "groupId": "streaming",
+      "name": "JIOHOTSTAR",
+      "pattern": "(?i)\\b(jio[ ._-]?hotstar|hotstar)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/jiohotstar.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF7c7bd2"
+    },
+    {
+      "id": "streaming-zee5",
+      "groupId": "streaming",
+      "name": "ZEE5",
+      "pattern": "(?i)\\bzee5\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/zee5.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF9a79c9"
+    },
+    {
+      "id": "streaming-sonyliv",
+      "groupId": "streaming",
+      "name": "SONYLIV",
+      "pattern": "(?i)\\b(sonyliv|sony[ ._-]?liv)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/sonyliv.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF6c91d1"
+    },
+    {
+      "id": "streaming-aha",
+      "groupId": "streaming",
+      "name": "AHA",
+      "pattern": "(?i)\\baha\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/aha.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFe18a4d"
+    },
+    {
+      "id": "streaming-tubi",
+      "groupId": "streaming",
+      "name": "TUBI",
+      "pattern": "(?i)\\btubi\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/tubi.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFa18bdb"
+    },
+    {
+      "id": "streaming-pluto-tv",
+      "groupId": "streaming",
+      "name": "PLUTO TV",
+      "pattern": "(?i)\\b(pluto[ ._-]?tv|plutotv)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/pluto-tv.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFd5b34f"
+    },
+    {
+      "id": "streaming-mubi",
+      "groupId": "streaming",
+      "name": "MUBI",
+      "pattern": "(?i)\\bmubi\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/mubi.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF5cb8ad"
+    },
+    {
+      "id": "streaming-movistar",
+      "groupId": "streaming",
+      "name": "MOVISTAR+",
+      "pattern": "(?i)\\b(movistar[ ._-]?plus|movistar\\+?|mplus)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/movistar.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF56a4d8"
+    },
+    {
+      "id": "streaming-filmin",
+      "groupId": "streaming",
+      "name": "FILMIN",
+      "pattern": "(?i)\\bfilmin(?:[ ._-]?plus)?\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/filmin.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFd3a15c"
+    },
+    {
+      "id": "streaming-skyshowtime",
+      "groupId": "streaming",
+      "name": "SKYSHOWTIME",
+      "pattern": "(?i)\\bsky[ ._-]?showtime\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/skyshowtime.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF6f8bd3"
+    },
+    {
+      "id": "streaming-rakuten-tv",
+      "groupId": "streaming",
+      "name": "RAKUTEN TV",
+      "pattern": "(?i)\\brakuten[ ._-]?tv\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/rakuten-tv.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFd65c61"
+    },
+    {
+      "id": "streaming-atresplayer",
+      "groupId": "streaming",
+      "name": "ATRESPLAYER",
+      "pattern": "(?i)\\b(atresplayer|atres[ ._-]?player)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/atresplayer.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFd7a14d"
+    },
+    {
+      "id": "streaming-rtve-play",
+      "groupId": "streaming",
+      "name": "RTVE PLAY",
+      "pattern": "(?i)\\b(rtve[ ._-]?play|rtve)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/rtve-play.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF5b9fba"
+    },
+    {
+      "id": "streaming-flixol",
+      "groupId": "streaming",
+      "name": "FLIXOLÉ",
+      "pattern": "(?i)\\b(flixol[eé])\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/flixol.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFb37b58"
+    },
+    {
+      "id": "streaming-tivify",
+      "groupId": "streaming",
+      "name": "TIVIFY",
+      "pattern": "(?i)\\btivify\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/tivify.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF65a99a"
+    },
+    {
+      "id": "language-spa",
+      "groupId": "language",
+      "name": "SPA",
+      "pattern": "(?i)\\b(spa|spanish|castellano|español|es)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/language/spa.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF59a9d1"
+    },
+    {
+      "id": "language-eng",
+      "groupId": "language",
+      "name": "ENG",
+      "pattern": "(?i)\\b(eng|english)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/language/eng.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF5b9bd5"
+    },
+    {
+      "id": "language-dual",
+      "groupId": "language",
+      "name": "DUAL",
+      "pattern": "(?i)\\bdual[ ._-]?audio\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/language/dual.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF5ba99b"
+    },
+    {
+      "id": "subtitles-sub",
+      "groupId": "subtitles",
+      "name": "SUB",
+      "pattern": "(?i)\\b(subs?|subbed|subtitles?)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/subtitles/sub.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FF8d80c9"
+    },
+    {
+      "id": "subtitles-dub",
+      "groupId": "subtitles",
+      "name": "DUB",
+      "pattern": "(?i)\\b(dubbed|dublado|dubbing)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/subtitles/dub.png",
+      "tagColor": "#D91C2633",
+      "borderColor": "#FFc08a59"
+    }
+  ]
+}

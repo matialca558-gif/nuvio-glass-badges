@@ -1,0 +1,274 @@
+{
+  "filters": [
+    {
+      "id": "streaming-netflix",
+      "groupId": "streaming",
+      "name": "NETFLIX",
+      "pattern": "(?i)\\b(netflix|nf|netfli[xs])\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/netflix.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFe34b58"
+    },
+    {
+      "id": "streaming-prime-video",
+      "groupId": "streaming",
+      "name": "PRIME VIDEO",
+      "pattern": "(?i)\\b(prime[ ._-]?video|amazon[ ._-]?prime|amzn|amzn[ ._-]?web)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/prime-video.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF4da8d8"
+    },
+    {
+      "id": "streaming-apple-tv",
+      "groupId": "streaming",
+      "name": "APPLE TV+",
+      "pattern": "(?i)\\b(apple[ ._-]?tv\\+?|atvp|itunes)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/apple-tv.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF9da8b7"
+    },
+    {
+      "id": "streaming-disney",
+      "groupId": "streaming",
+      "name": "DISNEY+",
+      "pattern": "(?i)\\b(disney\\+?|dsnp|disneyplus)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/disney.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF6b83d8"
+    },
+    {
+      "id": "streaming-max",
+      "groupId": "streaming",
+      "name": "MAX",
+      "pattern": "(?i)\\b(max|hbo[ ._-]?max|hmax)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/max.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF8c78d8"
+    },
+    {
+      "id": "streaming-hulu",
+      "groupId": "streaming",
+      "name": "HULU",
+      "pattern": "(?i)\\bhulu\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/hulu.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF58b77a"
+    },
+    {
+      "id": "streaming-paramount",
+      "groupId": "streaming",
+      "name": "PARAMOUNT+",
+      "pattern": "(?i)\\b(paramount\\+?|pmtp|paramountplus)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/paramount.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF5c91d5"
+    },
+    {
+      "id": "streaming-peacock",
+      "groupId": "streaming",
+      "name": "PEACOCK",
+      "pattern": "(?i)\\b(peacock|pcok)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/peacock.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFd4a15c"
+    },
+    {
+      "id": "streaming-crunchyroll",
+      "groupId": "streaming",
+      "name": "CRUNCHYROLL",
+      "pattern": "(?i)\\b(crunchyroll|cr)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/crunchyroll.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFe58a45"
+    },
+    {
+      "id": "streaming-amc",
+      "groupId": "streaming",
+      "name": "AMC+",
+      "pattern": "(?i)\\bamc\\+?\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/amc.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFb56b7c"
+    },
+    {
+      "id": "streaming-discovery",
+      "groupId": "streaming",
+      "name": "DISCOVERY+",
+      "pattern": "(?i)\\b(discovery\\+?|dscovery)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/discovery.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF5b9bc5"
+    },
+    {
+      "id": "streaming-bbc-iplayer",
+      "groupId": "streaming",
+      "name": "BBC iPLAYER",
+      "pattern": "(?i)\\b(bbc[ ._-]?iplayer|iplayer)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/bbc-iplayer.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFc56e91"
+    },
+    {
+      "id": "streaming-starz",
+      "groupId": "streaming",
+      "name": "STARZ",
+      "pattern": "(?i)\\bstarz\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/starz.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF8b8fa8"
+    },
+    {
+      "id": "streaming-showtime",
+      "groupId": "streaming",
+      "name": "SHOWTIME",
+      "pattern": "(?i)\\b(showtime|sho)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/showtime.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFc36b78"
+    },
+    {
+      "id": "streaming-youtube",
+      "groupId": "streaming",
+      "name": "YOUTUBE",
+      "pattern": "(?i)\\byoutube\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/youtube.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFe45b5b"
+    },
+    {
+      "id": "streaming-jiohotstar",
+      "groupId": "streaming",
+      "name": "JIOHOTSTAR",
+      "pattern": "(?i)\\b(jio[ ._-]?hotstar|hotstar)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/jiohotstar.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF7c7bd2"
+    },
+    {
+      "id": "streaming-zee5",
+      "groupId": "streaming",
+      "name": "ZEE5",
+      "pattern": "(?i)\\bzee5\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/zee5.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF9a79c9"
+    },
+    {
+      "id": "streaming-sonyliv",
+      "groupId": "streaming",
+      "name": "SONYLIV",
+      "pattern": "(?i)\\b(sonyliv|sony[ ._-]?liv)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/sonyliv.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF6c91d1"
+    },
+    {
+      "id": "streaming-aha",
+      "groupId": "streaming",
+      "name": "AHA",
+      "pattern": "(?i)\\baha\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/aha.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFe18a4d"
+    },
+    {
+      "id": "streaming-tubi",
+      "groupId": "streaming",
+      "name": "TUBI",
+      "pattern": "(?i)\\btubi\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/tubi.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFa18bdb"
+    },
+    {
+      "id": "streaming-pluto-tv",
+      "groupId": "streaming",
+      "name": "PLUTO TV",
+      "pattern": "(?i)\\b(pluto[ ._-]?tv|plutotv)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/pluto-tv.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFd5b34f"
+    },
+    {
+      "id": "streaming-mubi",
+      "groupId": "streaming",
+      "name": "MUBI",
+      "pattern": "(?i)\\bmubi\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/mubi.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF5cb8ad"
+    },
+    {
+      "id": "streaming-movistar",
+      "groupId": "streaming",
+      "name": "MOVISTAR+",
+      "pattern": "(?i)\\b(movistar[ ._-]?plus|movistar\\+?|mplus)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/movistar.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF56a4d8"
+    },
+    {
+      "id": "streaming-filmin",
+      "groupId": "streaming",
+      "name": "FILMIN",
+      "pattern": "(?i)\\bfilmin(?:[ ._-]?plus)?\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/filmin.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFd3a15c"
+    },
+    {
+      "id": "streaming-skyshowtime",
+      "groupId": "streaming",
+      "name": "SKYSHOWTIME",
+      "pattern": "(?i)\\bsky[ ._-]?showtime\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/skyshowtime.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF6f8bd3"
+    },
+    {
+      "id": "streaming-rakuten-tv",
+      "groupId": "streaming",
+      "name": "RAKUTEN TV",
+      "pattern": "(?i)\\brakuten[ ._-]?tv\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/rakuten-tv.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFd65c61"
+    },
+    {
+      "id": "streaming-atresplayer",
+      "groupId": "streaming",
+      "name": "ATRESPLAYER",
+      "pattern": "(?i)\\b(atresplayer|atres[ ._-]?player)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/atresplayer.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFd7a14d"
+    },
+    {
+      "id": "streaming-rtve-play",
+      "groupId": "streaming",
+      "name": "RTVE PLAY",
+      "pattern": "(?i)\\b(rtve[ ._-]?play|rtve)\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/rtve-play.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF5b9fba"
+    },
+    {
+      "id": "streaming-flixol",
+      "groupId": "streaming",
+      "name": "FLIXOLÉ",
+      "pattern": "(?i)\\b(flixol[eé])\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/flixol.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FFb37b58"
+    },
+    {
+      "id": "streaming-tivify",
+      "groupId": "streaming",
+      "name": "TIVIFY",
+      "pattern": "(?i)\\btivify\\b",
+      "imageURL": "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/assets/streaming/tivify.png",
+      "tagColor": "#E6222633",
+      "borderColor": "#FF65a99a"
+    }
+  ]
+}
